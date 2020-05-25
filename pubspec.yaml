@@ -1,0 +1,27 @@
+name: phoneauthentication
+description: Firebase Phone Authentication
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^0.1.2
+  card_settings: ^1.4.1
+
+dev_dependencies:
+  fluro: "^1.1.0"
+  google_sign_in: ^4.1.1
+  firebase_core: 0.4.4+3
+  firebase_auth: 0.15.3
+  pin_code_fields: 2.3.0+3
+  flare_flutter: ^2.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/flare/otp.flr
